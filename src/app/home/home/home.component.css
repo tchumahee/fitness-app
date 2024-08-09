@@ -1,0 +1,30 @@
+.feeds-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100%;
+}
+
+.feed-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1rem;
+    min-width: 20rem;
+    min-height: 80%;
+}
+
+.news-feed-container {
+    width: calc(70% - 72px);
+    flex: 1;
+}
+
+.exercises-feed-container {
+    width: calc(30% - 72px);
+}
+
+app-news-feed, app-exercises-feed {
+    flex:1;
+}
