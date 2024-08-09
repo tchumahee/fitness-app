@@ -1,0 +1,52 @@
+.view-container {
+    padding: 1rem;
+    height: calc(100% - 4rem);
+    width: calc(100% - 2rem);
+    max-width: calc(100% - 2rem);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.program-info-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 25rem;
+    max-width: 90%;
+}
+
+.comments-container {
+    width: 100%;
+    min-width: 100%;
+}
+
+.program-general-info-container {
+    flex: 1;
+}
+
+.program-additional-info-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.instructor-info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.separator {
+    width: 3px;
+    max-width: 3px;
+    height: calc(100% - 2rem);
+    background-color: rgb(132, 132, 132);
+    border-radius: 3px;
+    margin:1rem;
+}

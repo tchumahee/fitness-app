@@ -8,6 +8,11 @@ const routes: Routes = [
     // canActivate: [GuardService]
   },
   {
+    path: 'fitness-programs', // 'fitness-programs/:id'
+    loadChildren: () => import('./fitness-program/fitness-program.module').then(mod => mod.FitnessProgramModule),
+    // canActivate: [GuardService]
+  },
+  {
     path: '**',
     redirectTo: '/',
     pathMatch: 'full'
