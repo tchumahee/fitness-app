@@ -1,0 +1,14 @@
+.article-card-container {
+    min-height: 10rem;
+    min-width: 10rem;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin: 0.2rem;
+}
+
+.article-card-container:hover {
+    background-color: rgb(238, 238, 238);
+}
