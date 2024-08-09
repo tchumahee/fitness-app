@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Input } from '@angular/core';
 
 @Component({
   selector: 'app-news-feed',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class NewsFeedComponent {
 
+  public text: string = "test";
+
+  constructor() { }
 }

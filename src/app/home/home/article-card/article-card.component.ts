@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Input } from '@angular/core';
 
 @Component({
   selector: 'app-article-card',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class ArticleCardComponent {
 
+  @Input() public text: string = "test";
+
+  constructor () {}
 }
