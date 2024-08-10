@@ -6,3 +6,26 @@ body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
     background-color: rgb(231, 231, 231);
 }
+
+input, button {
+    margin: 0.2rem;
+    border-radius: 7px;
+}
+
+input {
+    min-height: 1.5rem;
+}
+
+button {
+    border: none;
+    min-height: 2rem;
+    font-weight: 600;
+    background-color: blueviolet;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(216, 175, 255);
+    color: black;
+    cursor: pointer;
+}

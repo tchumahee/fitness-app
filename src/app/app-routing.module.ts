@@ -8,6 +8,10 @@ const routes: Routes = [
     // canActivate: [GuardService]
   },
   {
+    path: 'login',
+    loadChildren: () => import('./auth/auth.module').then(mod => mod.AuthModule),
+  },
+  {
     path: 'fitness-programs', // 'fitness-programs/:id'
     loadChildren: () => import('./fitness-program/fitness-program.module').then(mod => mod.FitnessProgramModule),
     // canActivate: [GuardService]
