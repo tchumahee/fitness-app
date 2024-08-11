@@ -16,4 +16,12 @@ export class AppComponent {
   public logIn() {
     this.router.navigate(['./auth/login']);
   }
+
+  public showFitnessPrograms() {
+    this.router.navigate(['./fitness-programs']);
+  }
+
+  public showHome() {
+    this.router.navigate(['./']);
+  }
 }
