@@ -19,6 +19,7 @@ input {
 button {
     border: none;
     min-height: 2rem;
+    min-width: 8rem;
     font-weight: 600;
     background-color: blueviolet;
     color: white;
