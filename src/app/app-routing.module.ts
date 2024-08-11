@@ -8,7 +8,7 @@ const routes: Routes = [
     // canActivate: [GuardService]
   },
   {
-    path: 'login',
+    path: 'auth',
     loadChildren: () => import('./auth/auth.module').then(mod => mod.AuthModule),
   },
   {

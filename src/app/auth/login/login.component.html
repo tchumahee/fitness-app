@@ -2,10 +2,12 @@
     <div class="form-container">
         <form class="login-form">
             <h3>Log in!</h3>
+            <label>Username:</label>
             <input class="username-input">
-            <input class="password-input">
+            <label>Password:</label>
+            <input class="password-input" type="password">
             <button type="submit" (click)="login(form)">Log in</button>
-            <a>No account? Register here!</a>
+            <a href="auth/register">No account? Register here!</a>
         </form>
     </div>
 </div>
