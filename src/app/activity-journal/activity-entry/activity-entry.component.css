@@ -1,0 +1,23 @@
+.activity-entry-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+}
+
+.properties-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: space-evenly;
+}
+
+.property-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+p {
+    margin-right: 0.5rem;
+}
