@@ -24,4 +24,8 @@ export class AppComponent {
   public showHome() {
     this.router.navigate(['./']);
   }
+
+  public showActivityJournal() {
+    this.router.navigate(['./my-activity-journal']);
+  }
 }

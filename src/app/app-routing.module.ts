@@ -17,6 +17,11 @@ const routes: Routes = [
     // canActivate: [GuardService]
   },
   {
+    path: 'my-activity-journal',
+    loadChildren: () => import('./activity-journal/activity-journal.module').then(mod => mod.ActivityJournalModule),
+    // canActivate: [GuardService]
+  },
+  {
     path: '**',
     redirectTo: '/',
     pathMatch: 'full'
