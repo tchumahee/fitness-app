@@ -13,7 +13,7 @@ const routes: Routes = [
   },
   {
     path: 'fitness-programs', // 'fitness-programs/:id'
-    loadChildren: () => import('./fitness-program/fitness-program.module').then(mod => mod.FitnessProgramModule),
+    loadChildren: () => import('./fitness-programs/fitness-programs.module').then(mod => mod.FitnessProgramsModule),
     // canActivate: [GuardService]
   },
   {
