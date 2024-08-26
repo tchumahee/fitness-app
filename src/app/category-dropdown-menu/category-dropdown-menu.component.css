@@ -5,7 +5,8 @@
     padding: 1rem;
     width: calc(100% - 2rem);
     height: fit-content;
-    background-color: rgb(216, 175, 255);
+    background-color: rgba(196, 132, 238, .5);
+    backdrop-filter: blur(6px);
 }
 
 .dropdown-content {
