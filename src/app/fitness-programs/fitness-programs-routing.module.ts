@@ -7,6 +7,10 @@ const routes: Routes = [
     path: '',
     component: FitnessProgramsPageComponent,
     // canActivate: [GuardService]
+  },
+  {
+    path: 'fitness-program', // id = ...
+    loadChildren: () => import('./fitness-program/fitness-program.module').then(mod => mod.FitnessProgramModule),
   }
 ];
 

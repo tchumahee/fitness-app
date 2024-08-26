@@ -31,3 +31,21 @@ button:hover {
     color: black;
     cursor: pointer;
 }
+
+.horizontal-separator {
+    height: 3px;
+    min-height: 3px;
+    width: calc(100% - 2rem);
+    border-radius: 3px;
+    background-color: rgb(132, 132, 132);
+    margin: 1rem;
+}
+
+.vertical-separator {
+    width: 3px;
+    min-width: 3px;
+    height: calc(100% - 2rem);
+    border-radius: 3px;
+    background-color: rgb(132, 132, 132);
+    margin: 1rem;
+}
