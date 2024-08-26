@@ -26,3 +26,20 @@
     background-color: rgb(196, 132, 238);
     cursor: pointer;
 }
+
+app-category-dropdown-menu {
+    display: none;
+}
+
+.dropdown-button-div:hover app-category-dropdown-menu {
+    display: block;
+} 
+
+.dropdown-button-div {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    min-height: 2rem;
+    min-width: 8rem;
+    flex: 1;
+}

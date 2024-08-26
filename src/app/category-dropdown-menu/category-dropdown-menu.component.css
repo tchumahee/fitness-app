@@ -1,0 +1,14 @@
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    width: 5rem;
+    max-width: 5rem;
+    height: fit-content;
+}
+
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+}

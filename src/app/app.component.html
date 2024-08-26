@@ -1,6 +1,9 @@
 <div class="nav-bar">
     <button (click)="showHome()"><b>Home</b></button> 
-    <button (click)="showFitnessPrograms()"><b>Fitness programs</b></button>
+    <div class="dropdown-button-div">
+        <button (click)="showFitnessPrograms()" id="btn-categories"><b>Fitness programs</b></button>
+        <app-category-dropdown-menu></app-category-dropdown-menu>
+    </div>
     <button (click)="showActivityJournal()"><b>Your activities</b></button>
     <button><b>Opcija 4</b></button>
     <button (click)="logIn()"><b>Log in</b></button>
