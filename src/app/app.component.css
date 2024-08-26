@@ -20,6 +20,7 @@
     flex: 1;
     color: white;
     margin: 0;
+    padding: 0;
 }
 
 .nav-bar button:hover {
@@ -38,8 +39,5 @@ app-category-dropdown-menu {
 .dropdown-button-div {
     display: flex;
     flex-direction: column;
-    border: none;
-    min-height: 2rem;
-    min-width: 8rem;
     flex: 1;
 }

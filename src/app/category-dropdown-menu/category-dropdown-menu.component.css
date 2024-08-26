@@ -3,9 +3,9 @@
     flex-direction: column;
     background-color: white;
     padding: 1rem;
-    width: 5rem;
-    max-width: 5rem;
+    width: calc(100% - 2rem);
     height: fit-content;
+    background-color: rgb(216, 175, 255);
 }
 
 .dropdown-content {
