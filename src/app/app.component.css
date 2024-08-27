@@ -28,11 +28,11 @@
     cursor: pointer;
 }
 
-app-category-dropdown-menu {
+app-dropdown-menu {
     display: none;
 }
 
-.dropdown-button-div:hover app-category-dropdown-menu {
+.dropdown-button-div:hover app-dropdown-menu {
     display: block;
 } 
 

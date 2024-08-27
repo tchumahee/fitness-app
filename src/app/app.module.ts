@@ -3,12 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CategoryDropdownMenuComponent } from './category-dropdown-menu/category-dropdown-menu.component';
+import { DropdownMenuComponent } from './dropdown-menu/dropdown-menu.component';
+import { CategoryDropdownItemsComponent } from './category-dropdown-items/category-dropdown-items.component';
+import { AccountDropdownItemsComponent } from './account-dropdown-items/account-dropdown-items.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CategoryDropdownMenuComponent
+    DropdownMenuComponent,
+    CategoryDropdownItemsComponent,
+    AccountDropdownItemsComponent
   ],
   imports: [
     BrowserModule,

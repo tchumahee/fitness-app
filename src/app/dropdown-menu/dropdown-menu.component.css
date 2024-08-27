@@ -8,16 +8,3 @@
     background-color: rgba(196, 132, 238, .3);
     backdrop-filter: blur(10px);
 }
-
-.dropdown-content {
-    display: flex;
-    flex-direction: column;
-}
-
-.horizontal-separator {
-    margin: 3px;
-    min-height: 2px;
-    height: 2px;
-    width: 50%;
-    background-color: rgb(89, 57, 119);
-}

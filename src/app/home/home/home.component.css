@@ -17,6 +17,7 @@
     min-width: 25rem;
     width: 20rem;
     height: calc(100% - 4rem);
+    max-width: 90%;
 }
 
 .news-feed-container {
