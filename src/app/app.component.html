@@ -9,7 +9,7 @@
     <button (click)="showChat()"><b>Contact advisors</b></button>
     <button *ngIf="!loggedIn" (click)="logIn()"><b>Log in</b></button>
     <div *ngIf="loggedIn" class="dropdown-button-div">
-        <button><b>Account</b></button>
+        <button (click)="showAccountDetails()"><b>Account</b></button>
         <app-dropdown-menu dropdownType="account"></app-dropdown-menu>
     </div>
 </div>

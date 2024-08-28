@@ -37,4 +37,8 @@ export class AppComponent {
   public showChat() {
     this.router.navigate(['./chat']);
   }
+
+  public showAccountDetails() {
+    this.router.navigate(['./my-account'])
+  }
 }
