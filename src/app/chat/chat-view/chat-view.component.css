@@ -7,3 +7,55 @@
     background-color: white;
     overflow-y: scroll;
 }
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.chat {
+    flex: 1;
+}
+
+.messages-container {
+    overflow-y: scroll;
+}
+
+.message {
+    min-width: 15rem;
+    max-width: 20rem;
+    min-height: 5rem;
+    border-radius: 20px;
+    margin: 1.2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-message {
+    background-color: blueviolet;
+    color: white;
+    align-self: flex-end;
+}
+
+.user-message {
+    background-color: rgb(218, 179, 254);
+    color: black;
+    align-self: flex-start;
+}
+
+.new-message-input {
+    flex: 1;
+    min-height: 2rem;
+    font-size: medium;
+    border: 1px solid black;
+}
+
+.message-button {
+    min-height: 3rem;
+    height: 3rem;
+}
+
+.new-message-container {
+    align-items: center;
+}

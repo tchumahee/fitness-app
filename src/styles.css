@@ -16,6 +16,18 @@ input, button {
     max-height: 2rem;
 }
 
+textarea {
+    margin: 0.2rem;
+    border-radius: 7px;
+    max-height: 5rem;
+    min-height: 0.5rem;
+    font-size: medium;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    padding: 7px;
+    overflow: hidden;
+    resize: both;
+}
+
 input {
     height: 1.5rem;
 }
@@ -76,4 +88,14 @@ button:hover {
 
 .dropdown-link:hover {
     color: purple;
+}
+
+.horizontal-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical-div {
+    display: flex;
+    flex-direction: column;
 }
