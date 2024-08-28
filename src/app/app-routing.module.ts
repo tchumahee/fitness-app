@@ -32,6 +32,11 @@ const routes: Routes = [
     // canActivate: [GuardService]
   },
   {
+    path: 'my-fitness-programs',
+    loadChildren: () => import('./user-programs/user-programs.module').then(mod => mod.UserProgramsModule),
+    // canActivate: [GuardService]
+  },
+  {
     path: '**',
     redirectTo: '/',
     pathMatch: 'full'

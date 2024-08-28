@@ -29,4 +29,8 @@ export class AppComponent {
   public showActivityJournal() {
     this.router.navigate(['./my-activity-journal']);
   }
+
+  public showUserPrograms() {
+    this.router.navigate(['./my-fitness-programs']);
+  }
 }

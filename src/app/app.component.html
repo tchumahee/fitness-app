@@ -5,7 +5,7 @@
         <app-dropdown-menu dropdownType="categories"></app-dropdown-menu>
     </div>
     <button (click)="showActivityJournal()"><b>Your activities</b></button>
-    <button><b>Your programs</b></button>
+    <button (click)="showUserPrograms()"><b>Your programs</b></button>
     <button><b>Contact advisors</b></button>
     <button *ngIf="!loggedIn" (click)="logIn()"><b>Log in</b></button>
     <div *ngIf="loggedIn" class="dropdown-button-div">
