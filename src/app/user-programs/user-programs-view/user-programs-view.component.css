@@ -28,12 +28,12 @@
     justify-content: space-evenly;
 }
 
-.filter-container {
+.buttons-container {
     display: flex;
     flex-direction: row;
     width: min-content;
 }
 
-.filter-button {
-    flex: 0.1;
+button {
+    width: max-content;
 }
