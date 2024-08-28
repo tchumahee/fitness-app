@@ -52,3 +52,16 @@ button:hover {
     background-color: rgb(132, 132, 132);
     margin: 1rem;
 }
+
+.content-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1rem;
+    min-width: 25rem;
+    width: 20rem;
+    height: calc(100% - 4rem);
+    max-width: 90%;
+}
