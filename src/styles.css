@@ -65,3 +65,7 @@ button:hover {
     height: calc(100% - 4rem);
     max-width: 90%;
 }
+
+.dropdown-link:link, .dropdown-link:visited, .dropdown:hover, .dropdown-link:active {
+    text-decoration-line: none;
+}

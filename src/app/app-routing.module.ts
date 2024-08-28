@@ -27,6 +27,11 @@ const routes: Routes = [
     // canActivate: [GuardService]
   },
   {
+    path: 'my-account',
+    loadChildren: () => import('./account-overview/account-overview.module').then(mod => mod.AccountOverviewModule),
+    // canActivate: [GuardService]
+  },
+  {
     path: '**',
     redirectTo: '/',
     pathMatch: 'full'
