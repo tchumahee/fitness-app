@@ -66,6 +66,14 @@ button:hover {
     max-width: 90%;
 }
 
-.dropdown-link:link, .dropdown-link:visited, .dropdown:hover, .dropdown-link:active {
+.dropdown-link:link, .dropdown-link:visited, .dropdown-link:hover, .dropdown-link:active {
     text-decoration-line: none;
+}
+
+.dropdown-link:link, .dropdown-link:visited, .dropdown-link:active {
+    color: black;
+}
+
+.dropdown-link:hover {
+    color: purple;
 }
