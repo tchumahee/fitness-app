@@ -22,6 +22,11 @@ const routes: Routes = [
     // canActivate: [GuardService]
   },
   {
+    path: 'my-payment-history',
+    loadChildren: () => import('./payment-history/payment-history.module').then(mod => mod.PaymentHistoryModule),
+    // canActivate: [GuardService]
+  },
+  {
     path: '**',
     redirectTo: '/',
     pathMatch: 'full'

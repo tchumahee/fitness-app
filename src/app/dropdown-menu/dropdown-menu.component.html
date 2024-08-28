@@ -1,5 +1,4 @@
 <div class="dropdown">
-    <b>{{title}}</b>
-    <br>
-    <app-category-dropdown-items></app-category-dropdown-items>
+    <app-category-dropdown-items *ngIf="dropdownType=='categories'"></app-category-dropdown-items>
+    <app-account-dropdown-items *ngIf="dropdownType=='account'"></app-account-dropdown-items>
 </div>

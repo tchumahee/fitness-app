@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'fitness-app';
-  public loggedIn: boolean = false;
+  public loggedIn: boolean = true;
 
   constructor(
     private router: Router,

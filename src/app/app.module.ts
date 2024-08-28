@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { DropdownMenuComponent } from './dropdown-menu/dropdown-menu.component';
 import { CategoryDropdownItemsComponent } from './category-dropdown-items/category-dropdown-items.component';
 import { AccountDropdownItemsComponent } from './account-dropdown-items/account-dropdown-items.component';
+import { PaymentHistoryComponent } from './payment-history/payment-history/payment-history.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DropdownMenuComponent,
     CategoryDropdownItemsComponent,
-    AccountDropdownItemsComponent
+    AccountDropdownItemsComponent,
+    PaymentHistoryComponent
   ],
   imports: [
     BrowserModule,
