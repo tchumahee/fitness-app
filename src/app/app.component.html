@@ -6,7 +6,7 @@
     </div>
     <button (click)="showActivityJournal()"><b>Your activities</b></button>
     <button (click)="showUserPrograms()"><b>Your programs</b></button>
-    <button><b>Contact advisors</b></button>
+    <button (click)="showChat()"><b>Contact advisors</b></button>
     <button *ngIf="!loggedIn" (click)="logIn()"><b>Log in</b></button>
     <div *ngIf="loggedIn" class="dropdown-button-div">
         <button><b>Account</b></button>

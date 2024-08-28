@@ -37,6 +37,11 @@ const routes: Routes = [
     // canActivate: [GuardService]
   },
   {
+    path: 'chat',
+    loadChildren: () => import('./chat/chat.module').then(mod => mod.ChatModule),
+    // canActivate: [GuardService]
+  },
+  {
     path: '**',
     redirectTo: '/',
     pathMatch: 'full'

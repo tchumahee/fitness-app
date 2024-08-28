@@ -33,4 +33,8 @@ export class AppComponent {
   public showUserPrograms() {
     this.router.navigate(['./my-fitness-programs']);
   }
+
+  public showChat() {
+    this.router.navigate(['./chat']);
+  }
 }

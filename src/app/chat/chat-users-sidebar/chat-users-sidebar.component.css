@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.user-container:hover {
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+.user-icon {
+    display: flex;
+    background-color: deeppink;
+    height: 2.5rem;
+    width: 2.5rem;
+    min-height: 2.5rem;
+    min-width: 2.5rem;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+}
