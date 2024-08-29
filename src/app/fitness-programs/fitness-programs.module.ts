@@ -14,6 +14,9 @@ import { ProgramCardComponent } from './program-card/program-card.component';
   imports: [
     CommonModule,
     FitnessProgramsRoutingModule
+  ],
+  exports: [
+    ProgramCardComponent
   ]
 })
 export class FitnessProgramsModule { }
