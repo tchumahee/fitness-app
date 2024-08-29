@@ -19,6 +19,7 @@
 
 .messages-container {
     overflow-y: scroll;
+    flex-direction: column-reverse;
 }
 
 .message {
