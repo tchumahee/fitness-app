@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Context
 
-This application was made as part of the Internet Programming course at uni. It's the main front-end applications, accompanied by another with administrator functionality. 
+This application was made as part of the Internet Programming course at uni. It's the main front-end application, accompanied by another with administrator functionality. 
 
 The design of the application was done using pure CSS. The design is responsive, adjusting according to screen size. 
 
