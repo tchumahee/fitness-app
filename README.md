@@ -2,26 +2,37 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
 
-## Development server
+## Context
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This application was made as part of the Internet Programming course at uni. It's the main front-end applications, accompanied by another with administrator functionality. 
 
-## Code scaffolding
+## Domain
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The whole project was meant to encompass all needed functionalities for a fitness helper. 
+ 
+This application allows users to find the right fitness programs for them, track their programs, create new ones others can join, track other activities and overview their overall physical activity. Every user can see a news feed and registered users also get a personalized list of exercises for the day. A chat functionality exists for easy communication with program instructors.   
 
-## Build
+## Screenshots
+#### *Login page* 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<img width="1920" height="1080" alt="login" src="https://github.com/user-attachments/assets/0002047d-c30b-4995-8c1f-8ea79af48b45" />
 
-## Running unit tests
+#### *Home page for logged-in user* 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<img width="1920" height="1080" alt="home when logged in" src="https://github.com/user-attachments/assets/c54d4262-0911-4a62-bc4d-28d42aa7cdf7" />
 
-## Running end-to-end tests
+#### *Fitness programs search page* 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<img width="1920" height="1080" alt="program categories" src="https://github.com/user-attachments/assets/fcb4ba15-daab-41af-a2e9-5f70702efb13" />
 
-## Further help
+#### *User activity stats page* 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<img width="1920" height="1080" alt="activities" src="https://github.com/user-attachments/assets/725ce4b5-3500-424a-a970-6b3b38ac5e58" />
+
+#### *Chat with instructors*
+
+<img width="1920" height="1080" alt="chat" src="https://github.com/user-attachments/assets/a84b85fb-e916-4b85-91ad-2bff77372e7b" />
+
+
+
+
